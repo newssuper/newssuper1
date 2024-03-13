@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://disintegrateredundancyfen.com/b18dce9cm?key=c784af1708e1df7ba5d07643f816e83a/`
+					`https://newssuper.free.nf/` + encodeURI(path as string
 				}`,
 			},
 		};
